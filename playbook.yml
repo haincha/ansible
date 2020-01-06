@@ -3,3 +3,7 @@
   gather_facts: true
   roles:
     - deploywww
+- hosts: all
+  gather_facts: true
+  roles:
+    - setup
